@@ -1,0 +1,1676 @@
+local a = {
+    ["AquaMatrix"] = Instance.new("ScreenGui"),
+    ["Main"] = Instance.new("Frame"),
+    ["UIStroke"] = Instance.new("UIStroke"),
+    ["UICorner"] = Instance.new("UICorner"),
+    ["AquaMatrix | FE R15 Animations"] = Instance.new("TextLabel"),
+    ["close"] = Instance.new("ImageButton"),
+    ["min"] = Instance.new("ImageButton"),
+    ["footer"] = Instance.new("TextLabel"),
+    ["avatar"] = Instance.new("ImageLabel"),
+    ["UICorner 2"] = Instance.new("UICorner"),
+    ["tab buttons"] = Instance.new("ScrollingFrame"),
+    ["tabspacing"] = Instance.new("TextButton"),
+    ["UIListLayout"] = Instance.new("UIListLayout"),
+    ["tabbutton"] = Instance.new("TextButton"),
+    ["UICorner 3"] = Instance.new("UICorner"),
+    ["tabbutton 2"] = Instance.new("TextButton"),
+    ["UICorner 4"] = Instance.new("UICorner"),
+    ["tabbutton 3"] = Instance.new("TextButton"),
+    ["UICorner 5"] = Instance.new("UICorner"),
+    ["tabbutton 4"] = Instance.new("TextButton"),
+    ["UICorner 6"] = Instance.new("UICorner"),
+    ["tabbutton 5"] = Instance.new("TextButton"),
+    ["UICorner 7"] = Instance.new("UICorner"),
+    ["UIPadding"] = Instance.new("UIPadding"),
+    ["greetings"] = Instance.new("TextLabel"),
+    ["Sound"] = Instance.new("Sound"),
+    ["Sound 2"] = Instance.new("Sound"),
+    ["Animations"] = Instance.new("Frame"),
+    ["currenttab"] = Instance.new("TextLabel"),
+    ["UICorner 8"] = Instance.new("UICorner"),
+    ["ScrollingFrame"] = Instance.new("ScrollingFrame"),
+    ["UIListLayout 2"] = Instance.new("UIListLayout"),
+    ["tabspacing 2"] = Instance.new("TextButton"),
+    ["UICorner 121"] = Instance.new("UICorner"),
+    ["Frame 57"] = Instance.new("Frame"),
+    ["UICorner 122"] = Instance.new("UICorner"),
+    ["SearchBar"] = Instance.new("TextBox"),
+    ["searchicon"] = Instance.new("ImageLabel"),
+    ["UICorner 123"] = Instance.new("UICorner"),
+    ["Extras"] = Instance.new("Frame"),
+    ["currenttab 2"] = Instance.new("TextLabel"),
+    ["UICorner 124"] = Instance.new("UICorner"),
+    ["ScrollingFrame 2"] = Instance.new("ScrollingFrame"),
+    ["UIListLayout 3"] = Instance.new("UIListLayout"),
+    ["tabspacing 3"] = Instance.new("TextButton"),
+    ["AquaMatrix | FE R15 Animations 2"] = Instance.new("TextLabel"),
+    ["UICorner 125"] = Instance.new("UICorner"),
+    ["Jerk Off Tool"] = Instance.new("TextButton"),
+    ["butcorner 58"] = Instance.new("UICorner"),
+    ["infobutton 58"] = Instance.new("ImageButton"),
+    ["AquaMatrix | FE R15 Animations 3"] = Instance.new("TextLabel"),
+    ["UICorner 126"] = Instance.new("UICorner"),
+    ["Dash Animation"] = Instance.new("TextButton"),
+    ["butcorner 59"] = Instance.new("UICorner"),
+    ["infobutton 59"] = Instance.new("ImageButton"),
+    ["Speed"] = Instance.new("Frame"),
+    ["currenttab 3"] = Instance.new("TextLabel"),
+    ["UICorner 127"] = Instance.new("UICorner"),
+    ["ScrollingFrame 3"] = Instance.new("ScrollingFrame"),
+    ["UIListLayout 4"] = Instance.new("UIListLayout"),
+    ["tabspacing 4"] = Instance.new("TextButton"),
+    ["AquaMatrix | FE R15 Animations 4"] = Instance.new("TextLabel"),
+    ["UICorner 128"] = Instance.new("UICorner"),
+    ["Externals"] = Instance.new("Frame"),
+    ["currenttab 4"] = Instance.new("TextLabel"),
+    ["UICorner 130"] = Instance.new("UICorner"),
+    ["ScrollingFrame 4"] = Instance.new("ScrollingFrame"),
+    ["UIListLayout 5"] = Instance.new("UIListLayout"),
+    ["tabspacing 5"] = Instance.new("TextButton"),
+    ["Infinite Yield"] = Instance.new("TextButton"),
+    ["butcorner 87"] = Instance.new("UICorner"),
+    ["infobutton 87"] = Instance.new("ImageButton"),
+    ["Xora Safety"] = Instance.new("TextButton"),
+    ["butcorner 88"] = Instance.new("UICorner"),
+    ["infobutton 88"] = Instance.new("ImageButton"),
+    ["Pluto V3"] = Instance.new("TextButton"),
+    ["butcorner 89"] = Instance.new("UICorner"),
+    ["infobutton 89"] = Instance.new("ImageButton"),
+    ["System Broken"] = Instance.new("TextButton"),
+    ["butcorner 90"] = Instance.new("UICorner"),
+    ["infobutton 90"] = Instance.new("ImageButton"),
+    ["Debuggers"] = Instance.new("TextButton"),
+    ["butcorner 91"] = Instance.new("UICorner"),
+    ["infobutton 91"] = Instance.new("ImageButton"),
+    ["Audio Logger"] = Instance.new("TextButton"),
+    ["butcorner 92"] = Instance.new("UICorner"),
+    ["infobutton 92"] = Instance.new("ImageButton"),
+    ["Info"] = Instance.new("Frame"),
+    ["currenttab 5"] = Instance.new("TextLabel"),
+    ["UICorner 131"] = Instance.new("UICorner"),
+    ["ScrollingFrame 5"] = Instance.new("ScrollingFrame"),
+    ["UIListLayout 6"] = Instance.new("UIListLayout"),
+    ["tabspacing 6"] = Instance.new("TextButton"),
+    ["AquaMatrix | FE R15 Animations 5"] = Instance.new("TextLabel"),
+    ["UICorner 132"] = Instance.new("UICorner"),
+    ["AquaMatrix | FE R15 Animations 6"] = Instance.new("TextLabel"),
+    ["UICorner 133"] = Instance.new("UICorner"),
+    ["Space 2"] = Instance.new("TextLabel"),
+    ["UICorner 134"] = Instance.new("UICorner"),
+    ["AquaMatrix | FE R15 Animations 7"] = Instance.new("TextLabel"),
+    ["UICorner 135"] = Instance.new("UICorner"),
+    ["AquaMatrix | FE R15 Animations 8"] = Instance.new("TextLabel"),
+    ["UICorner 136"] = Instance.new("UICorner"),
+    ["Space 3"] = Instance.new("TextLabel"),
+    ["UICorner 137"] = Instance.new("UICorner"),
+    ["AquaMatrix | FE R15 Animations 9"] = Instance.new("TextLabel"),
+    ["UICorner 138"] = Instance.new("UICorner"),
+    ["AquaMatrix | FE R15 Animations 10"] = Instance.new("TextLabel"),
+    ["UICorner 139"] = Instance.new("UICorner"),
+    ["Monster Mash Tool"] = Instance.new("TextButton"),
+    ["tabspacing 666"] = Instance.new("TextButton"),
+    ["infobutton 666"] = Instance.new("ImageButton"),
+    ["butcorner 666"] = Instance.new("UICorner"),
+    ["R6 Psycho Animation"] = Instance.new("TextButton"),
+    ["tabspacing 777"] = Instance.new("TextButton"),
+    ["infobutton 777"] = Instance.new("ImageButton"),
+    ["butcorner 777"] = Instance.new("UICorner"),
+    ["R6 Killer Animation"] = Instance.new("TextButton"),
+    ["tabspacing 888"] = Instance.new("TextButton"),
+    ["infobutton 888"] = Instance.new("ImageButton"),
+    ["butcorner 888"] = Instance.new("UICorner")
+}
+
+
+a["AquaMatrix"]["Name"] = "AquaMatrix"
+a["AquaMatrix"]["Parent"] = game:GetService("Players").LocalPlayer.PlayerGui
+
+a["Main"]["Position"] = UDim2.new(.3416750431060791, 0, .4037058651447296, 0)
+a["Main"]["Size"] = UDim2.new(0, 602, 0, 403)
+a["Main"]["BackgroundColor3"] = Color3.fromRGB(0, 43, 71)
+a["Main"]["BorderColor3"] = Color3.fromRGB(100, 100, 100)
+a["Main"]["Name"] = "Main"
+a["Main"]["Parent"] = a["AquaMatrix"]
+a["Main"]["Draggable"] = true
+a["Main"]["Active"] = true
+
+a["UIStroke"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+a["UIStroke"]["Color"] = Color3.fromRGB(62, 183, 255)
+a["UIStroke"]["Thickness"] = 2.5
+a["UIStroke"]["Name"] = "UIStroke"
+a["UIStroke"]["Parent"] = a["Main"]
+
+a["UICorner"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner"]["Name"] = "UICorner"
+a["UICorner"]["Parent"] = a["Main"]
+
+a["AquaMatrix | FE R15 Animations"]["Position"] = UDim2.new(.030732860788702965, 0, 0, 0)
+a["AquaMatrix | FE R15 Animations"]["Size"] = UDim2.new(0, 410, 0, 37)
+a["AquaMatrix | FE R15 Animations"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations"]["BackgroundTransparency"] = 1
+a["AquaMatrix | FE R15 Animations"]["FontFace"] = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations"]["Text"] = "AquaMatrix | FE R6 Animations"
+a["AquaMatrix | FE R15 Animations"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations"]["TextSize"] = 25
+a["AquaMatrix | FE R15 Animations"]["TextXAlignment"] = Enum.TextXAlignment.Left
+a["AquaMatrix | FE R15 Animations"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations"]["Parent"] = a["Main"]
+
+a["close"]["Position"] = UDim2.new(.9368771314620972, 0, .01488833874464035, 0)
+a["close"]["Size"] = UDim2.new(0, 25, 0, 25)
+a["close"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["close"]["BackgroundTransparency"] = 1
+a["close"]["Image"] = "http://www.roblox.com/asset/?id=6236220207"
+a["close"]["Name"] = "close"
+a["close"]["Parent"] = a["Main"]
+a["close"].MouseButton1Click:Connect(function()
+    a["Main"]:Destroy()
+end)
+
+a["min"]["Position"] = UDim2.new(.8770764470100403, 0, .01488833874464035, 0)
+a["min"]["Size"] = UDim2.new(0, 25, 0, 25)
+a["min"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["min"]["BackgroundTransparency"] = 1
+a["min"]["Image"] = "rbxassetid://8836139185"
+a["min"]["Name"] = "min"
+a["min"]["Parent"] = a["Main"]
+
+a["footer"]["Position"] = UDim2.new(0, 20, 0, 380)
+a["footer"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["footer"]["Text"] = ""
+a["footer"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["footer"]["TextSize"] = 20
+a["footer"]["TextXAlignment"] = Enum.TextXAlignment.Left
+a["footer"]["Name"] = "footer"
+a["footer"]["Parent"] = a["Main"]
+
+local player = game.Players.LocalPlayer
+local userId = player.UserId
+a["avatar"]["Position"] = UDim2.new(0, 550, 0, 359)
+a["avatar"]["Size"] = UDim2.new(0, 40, 0, 40)
+a["avatar"]["BackgroundTransparency"] = 1
+a["avatar"]["Image"] = "rbxthumb://type=AvatarHeadShot&id=" .. userId .. "&w=48&h=48"
+a["avatar"]["Name"] = "avatar"
+a["avatar"]["Parent"] = a["Main"]
+
+a["UICorner 2"]["CornerRadius"] = UDim.new(0, 20)
+a["UICorner 2"]["Name"] = "UICorner"
+a["UICorner 2"]["Parent"] = a["avatar"]
+
+a["tab buttons"]["Position"] = UDim2.new(0, 0, .0918114110827446, 0)
+a["tab buttons"]["Size"] = UDim2.new(0, 182, 0, 320)
+a["tab buttons"]["Active"] = true
+a["tab buttons"]["BackgroundColor3"] = Color3.fromRGB(0, 33, 58)
+a["tab buttons"]["BorderSizePixel"] = 0
+a["tab buttons"]["ScrollBarImageColor3"] = Color3.fromRGB(14, 114, 150)
+a["tab buttons"]["Name"] = "tab buttons"
+a["tab buttons"]["Parent"] = a["Main"]
+
+a["tabspacing"]["Position"] = UDim2.new(.044917259365320206, 0, 0.0000003767602265725145, 0)
+a["tabspacing"]["Size"] = UDim2.new(0, 385, 0, 1)
+a["tabspacing"]["Active"] = false
+a["tabspacing"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66)
+a["tabspacing"]["BackgroundTransparency"] = 1
+a["tabspacing"]["Selectable"] = false
+a["tabspacing"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabspacing"]["Text"] = " "
+a["tabspacing"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabspacing"]["TextSize"] = 22
+a["tabspacing"]["Name"] = "tabspacing"
+a["tabspacing"]["Parent"] = a["tab buttons"]
+
+a["UIListLayout"]["Padding"] = UDim.new(0, 13)
+a["UIListLayout"]["SortOrder"] = Enum.SortOrder.LayoutOrder
+a["UIListLayout"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+a["UIListLayout"]["Name"] = "UIListLayout"
+a["UIListLayout"]["Parent"] = a["tab buttons"]
+
+a["tabbutton"]["Position"] = UDim2.new(.04054053872823715, 0, .03999999910593033, 0)
+a["tabbutton"]["Size"] = UDim2.new(0, 149, 0, 39)
+a["tabbutton"]["BackgroundColor3"] = Color3.fromRGB(0, 87, 107)
+a["tabbutton"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabbutton"]["Text"] = "Animations"
+a["tabbutton"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabbutton"]["TextSize"] = 17
+a["tabbutton"]["AutoButtonColor"] = false
+a["tabbutton"]["Name"] = "tabbutton"
+a["tabbutton"]["Parent"] = a["tab buttons"]
+    a["tabbutton"].MouseEnter:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local hoverTween = tweenService:Create(a["tabbutton"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(105, 158, 158)})
+        hoverTween:Play()
+    end)
+    a["tabbutton"].MouseLeave:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local leaveTween = tweenService:Create(a["tabbutton"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(14, 114, 150)})
+        leaveTween:Play()
+    end)
+
+a["tabbutton"].MouseButton1Click:Connect(function()
+    a["Animations"]["Visible"] = true
+    a["Extras"]["Visible"] = false
+    a["Speed"]["Visible"] = false
+    a["Externals"]["Visible"] = false
+    a["Info"]["Visible"] = false
+    a["Sound"]:Play()
+end)
+
+a["UICorner 3"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 3"]["Name"] = "UICorner"
+a["UICorner 3"]["Parent"] = a["tabbutton"]
+
+a["tabbutton 2"]["Position"] = UDim2.new(.04054053872823715, 0, .03999999910593033, 0)
+a["tabbutton 2"]["Size"] = UDim2.new(0, 149, 0, 39)
+a["tabbutton 2"]["BackgroundColor3"] = Color3.fromRGB(0, 87, 107)
+a["tabbutton 2"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabbutton 2"]["Text"] = "Extras"
+a["tabbutton 2"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabbutton 2"]["TextSize"] = 17
+a["tabbutton 2"]["AutoButtonColor"] = false
+a["tabbutton 2"]["Name"] = "tabbutton"
+a["tabbutton 2"]["Parent"] = a["tab buttons"]
+
+    a["tabbutton 2"].MouseEnter:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local hoverTween = tweenService:Create(a["tabbutton 2"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(105, 158, 158)})
+        hoverTween:Play()
+    end)
+    a["tabbutton 2"].MouseLeave:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local leaveTween = tweenService:Create(a["tabbutton 2"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(14, 114, 150)})
+        leaveTween:Play()
+    end)
+
+a["tabbutton 2"].MouseButton1Click:Connect(function()
+    a["Animations"]["Visible"] = false
+    a["Extras"]["Visible"] = true
+    a["Speed"]["Visible"] = false
+    a["Externals"]["Visible"] = false
+    a["Info"]["Visible"] = false
+    a["Sound"]:Play()
+end)
+
+a["UICorner 4"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 4"]["Name"] = "UICorner"
+a["UICorner 4"]["Parent"] = a["tabbutton 2"]
+
+a["tabbutton 3"]["Position"] = UDim2.new(.04054053872823715, 0, .03999999910593033, 0)
+a["tabbutton 3"]["Size"] = UDim2.new(0, 149, 0, 39)
+a["tabbutton 3"]["BackgroundColor3"] = Color3.fromRGB(0, 87, 107)
+a["tabbutton 3"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabbutton 3"]["Text"] = "Speed"
+a["tabbutton 3"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabbutton 3"]["TextSize"] = 17
+a["tabbutton 3"]["AutoButtonColor"] = false
+a["tabbutton 3"]["Name"] = "tabbutton"
+a["tabbutton 3"]["Parent"] = a["tab buttons"]
+
+    a["tabbutton 3"].MouseEnter:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local hoverTween = tweenService:Create(a["tabbutton 3"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(105, 158, 158)})
+        hoverTween:Play()
+    end)
+    a["tabbutton 3"].MouseLeave:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local leaveTween = tweenService:Create(a["tabbutton 3"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(14, 114, 150)})
+        leaveTween:Play()
+    end)
+
+a["tabbutton 3"].MouseButton1Click:Connect(function()
+    a["Animations"]["Visible"] = false
+    a["Extras"]["Visible"] = false
+    a["Speed"]["Visible"] = true
+    a["Externals"]["Visible"] = false
+    a["Info"]["Visible"] = false
+    a["Sound"]:Play()
+end)
+
+a["UICorner 5"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 5"]["Name"] = "UICorner"
+a["UICorner 5"]["Parent"] = a["tabbutton 3"]
+
+a["tabbutton 4"]["Position"] = UDim2.new(.04054053872823715, 0, .03999999910593033, 0)
+a["tabbutton 4"]["Size"] = UDim2.new(0, 149, 0, 39)
+a["tabbutton 4"]["BackgroundColor3"] = Color3.fromRGB(0, 87, 107)
+a["tabbutton 4"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabbutton 4"]["Text"] = "Externals"
+a["tabbutton 4"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabbutton 4"]["TextSize"] = 17
+a["tabbutton 4"]["AutoButtonColor"] = false
+a["tabbutton 4"]["Name"] = "tabbutton"
+a["tabbutton 4"]["Parent"] = a["tab buttons"]
+
+    a["tabbutton 4"].MouseEnter:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local hoverTween = tweenService:Create(a["tabbutton 4"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(105, 158, 158)})
+        hoverTween:Play()
+    end)
+    a["tabbutton 4"].MouseLeave:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local leaveTween = tweenService:Create(a["tabbutton 4"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(14, 114, 150)})
+        leaveTween:Play()
+    end)
+
+a["tabbutton 4"].MouseButton1Click:Connect(function()
+    a["Animations"]["Visible"] = false
+    a["Extras"]["Visible"] = false
+    a["Speed"]["Visible"] = false
+    a["Externals"]["Visible"] = true
+    a["Info"]["Visible"] = false
+    a["Sound"]:Play()
+end)
+
+a["UICorner 6"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 6"]["Name"] = "UICorner"
+a["UICorner 6"]["Parent"] = a["tabbutton 4"]
+
+a["tabbutton 5"]["Position"] = UDim2.new(.04054053872823715, 0, .03999999910593033, 0)
+a["tabbutton 5"]["Size"] = UDim2.new(0, 149, 0, 39)
+a["tabbutton 5"]["BackgroundColor3"] = Color3.fromRGB(0, 87, 107)
+a["tabbutton 5"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabbutton 5"]["Text"] = "Info"
+a["tabbutton 5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabbutton 5"]["TextSize"] = 17
+a["tabbutton 5"]["AutoButtonColor"] = false
+a["tabbutton 5"]["Name"] = "tabbutton"
+a["tabbutton 5"]["Parent"] = a["tab buttons"]
+
+    a["tabbutton 5"].MouseEnter:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local hoverTween = tweenService:Create(a["tabbutton 5"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(105, 158, 158)})
+        hoverTween:Play()
+    end)
+    a["tabbutton 5"].MouseLeave:Connect(function()
+        local tweenService = game:GetService("TweenService")
+        local leaveTween = tweenService:Create(a["tabbutton 5"], TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundColor3 = Color3.fromRGB(14, 114, 150)})
+        leaveTween:Play()
+    end)
+
+a["tabbutton 5"].MouseButton1Click:Connect(function()
+    a["Animations"]["Visible"] = false
+    a["Extras"]["Visible"] = false
+    a["Speed"]["Visible"] = false
+    a["Externals"]["Visible"] = false
+    a["Info"]["Visible"] = true
+    a["Sound"]:Play()
+end)
+
+a["UICorner 7"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 7"]["Name"] = "UICorner"
+a["UICorner 7"]["Parent"] = a["tabbutton 5"]
+
+a["UIPadding"]["Name"] = "UIPadding"
+a["UIPadding"]["Parent"] = a["Main"]
+
+local player = game.Players.LocalPlayer
+a["greetings"]["Position"] = UDim2.new(0, 487, 0, 381)
+a["greetings"]["BackgroundTransparency"] = 1
+a["greetings"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["greetings"]["Text"] = "Hello, " .. player.Name
+a["greetings"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["greetings"]["TextSize"] = 14
+a["greetings"]["Name"] = "greetings"
+a["greetings"]["Parent"] = a["Main"]
+
+a["Sound"]["Name"] = "Sound"
+a["Sound"]["SoundId"] = "rbxassetid://6228296129"
+a["Sound"]["Parent"] = a["Main"]
+a["Sound"]["Volume"] = 1
+
+a["Sound 2"]["Name"] = "Sound"
+a["Sound 2"]["SoundId"] = "rbxassetid://3314301672"
+a["Sound 2"]["Parent"] = a["Main"]
+a["Sound 2"]["Volume"] = 1
+
+a["Animations"]["Position"] = UDim2.new(.302325576543808, 0, .0918114110827446, 0)
+a["Animations"]["Size"] = UDim2.new(0, 420, 0, 320)
+a["Animations"]["BackgroundColor3"] = Color3.fromRGB(26, 32, 58)
+a["Animations"]["Visible"] = false
+a["Animations"]["Name"] = "Animations"
+a["Animations"]["Parent"] = a["Main"]
+
+a["currenttab"]["Position"] = UDim2.new(0, 20, 0, 11)
+a["currenttab"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["currenttab"]["Text"] = "Animations"
+a["currenttab"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["currenttab"]["TextSize"] = 14
+a["currenttab"]["TextXAlignment"] = Enum.TextXAlignment.Left
+a["currenttab"]["Name"] = "currenttab"
+a["currenttab"]["Parent"] = a["Animations"]
+
+a["UICorner 8"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 8"]["Name"] = "UICorner"
+a["UICorner 8"]["Parent"] = a["Animations"]
+
+a["AquaMatrix | FE R15 Animations 4"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 4"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 4"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 4"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 4"]["Text"] = "To Customize The Speed, Just Click Any of The Buttons You Desire."
+a["AquaMatrix | FE R15 Animations 4"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 4"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 4"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 4"]["Parent"] = a["ScrollingFrame 3"]
+
+local activeAnimations = {} -- Table to keep track of currently active animations
+local buttons = {} -- Table to store button references
+
+-- Ensure ScrollingFrame is correctly referenced
+local ScrollingFrame = a["ScrollingFrame"]
+if not ScrollingFrame then
+    error("ScrollingFrame not found in 'a'!")
+end
+
+-- Function to create buttons for animations
+local function createAnimationButton(name, animationIds)
+    local button = Instance.new("TextButton")
+    local buttonCorner = Instance.new("UICorner")
+    
+    -- Apply provided properties
+    button.Position = UDim2.new(0.15011820197105408, 0, 0.0002540761779528111, 0)
+    button.Size = UDim2.new(0, 385, 0, 39)
+    button.BackgroundColor3 = Color3.fromRGB(0, 74, 113)
+    button.FontFace = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    button.Text = name
+    button.TextColor3 = Color3.fromRGB(255, 255, 255)
+    button.TextSize = 17
+    button.Name = "Animation"
+    button.Parent = ScrollingFrame
+    button.AutoButtonColor = false
+
+    buttonCorner.CornerRadius = UDim.new(0, 5)
+    buttonCorner.Name = "butcorner"
+    buttonCorner.Parent = button
+
+    local infobutton = Instance.new("ImageButton")
+    infobutton.Position = UDim2.new(0.02857142873108387, 0, 0.23076924681663513, 0)
+    infobutton.Size = UDim2.new(0, 20, 0, 21)
+    infobutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    infobutton.BackgroundTransparency = 1
+    infobutton.Image = "http://www.roblox.com/asset/?id=6294110112"
+    infobutton.Name = "infobutton"
+    infobutton.Parent = button
+
+    local slider = Instance.new("Frame")
+    slider.Position = UDim2.new(0, 345, 0, 15)
+    slider.Size = UDim2.new(0, 25, 0, 10)
+    slider.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+    slider.BorderSizePixel = 0
+    slider.Name = "slider"
+    slider.Parent = button
+
+    local sliderCorner = Instance.new("UICorner")
+    sliderCorner.CornerRadius = UDim.new(0, 5)
+    sliderCorner.Name = "UICorner"
+    sliderCorner.Parent = slider
+
+    local frame = Instance.new("Frame")
+    frame.Position = UDim2.new(0, -5, 0, -3)
+    frame.Size = UDim2.new(0, 15, 0, 15)
+    frame.Name = "Frame"
+    frame.Parent = slider
+
+    local frameCorner = Instance.new("UICorner")
+    frameCorner.CornerRadius = UDim.new(0, 20)
+    frameCorner.Name = "UICorner"
+    frameCorner.Parent = frame
+
+    -- Store button reference for search functionality
+    table.insert(buttons, button)
+
+    -- Button click functionality
+    button.MouseButton1Click:Connect(function()
+        local humanoid = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            local animationIdsList = type(animationIds) == "table" and animationIds or {animationIds} -- Ensure animationIds is a table
+
+            -- Flag to check if any animations are currently active
+            local isActive = false 
+
+            -- Iterate through each animation ID
+            for _, animationId in ipairs(animationIdsList) do
+                if activeAnimations[animationId] then
+                    -- If the animation is already active, stop it
+                    activeAnimations[animationId]:Stop()
+                    activeAnimations[animationId] = nil -- Remove from active animations table
+                else
+                    -- Load and play the new animation
+                    local anim = Instance.new("Animation")
+                    anim.AnimationId = "rbxassetid://" .. animationId
+                    local animationTrack = humanoid:LoadAnimation(anim)
+                    animationTrack.Looped = true -- Enable looping
+                    animationTrack:Play()
+                    
+                    -- Store the active animation track
+                    activeAnimations[animationId] = animationTrack
+                    isActive = true -- Mark that at least one animation is active
+                end
+            end
+            
+            -- Change the button color based on active state
+            local tweenService = game:GetService("TweenService")
+            if isActive then
+                local colorTween = tweenService:Create(slider, TweenInfo.new(0.5), {BackgroundColor3 = Color3.fromRGB(0, 255, 0)})
+                local frameTween = tweenService:Create(frame, TweenInfo.new(0.5), {Position = UDim2.new(1, -10, 0, -3)})
+                colorTween:Play()
+                frameTween:Play()
+            else
+                local colorTween = tweenService:Create(slider, TweenInfo.new(0.5), {BackgroundColor3 = Color3.fromRGB(200, 0, 0)})
+                local frameTween = tweenService:Create(frame, TweenInfo.new(0.5), {Position = UDim2.new(0, -5, 0, -3)})
+                colorTween:Play()
+                frameTween:Play()
+            end
+            
+            -- Adjust speed from input box for each active animation
+            for _, animationId in ipairs(animationIdsList) do
+                if activeAnimations[animationId] then
+                    activeAnimations[animationId]:AdjustSpeed(tonumber(SpeedInput.Text) or 1)
+                end
+            end
+        end
+    end)
+end
+
+createAnimationButton("2013 Dance", "161099825")
+createAnimationButton("Dance", "182435998")
+createAnimationButton("Classic Dance", "27789359")
+createAnimationButton("Wave", "128777973")
+createAnimationButton("Laugh", "129423131")
+createAnimationButton("Balloon Float", "148840371")
+createAnimationButton("Barrel Throw", "31020869")
+createAnimationButton("Bike Riding Stance", "189854234")
+createAnimationButton("Guitar Equip", "192906348")
+createAnimationButton("saxtest", "30257281")
+createAnimationButton("Soccer Kick", "28458752")
+createAnimationButton("drink", "29517689")
+createAnimationButton("Goal Dance", "28488254")
+createAnimationButton("Hold", "1119816160")
+createAnimationButton("Pluck", "99198989")
+createAnimationButton("Coasting Pose", "160737288")
+createAnimationButton("Board Kick", "160737244")
+createAnimationButton("Right Turn", "160737408")
+createAnimationButton("Left Turn", "160737355")
+createAnimationButton("Throw From Bag", "30188122")
+createAnimationButton("Wand Cast", "31665427")
+createAnimationButton("Left Slash", "74894663")
+createAnimationButton("Right Slash", "74813494")
+createAnimationButton("Bloxster Motorcycle", "185299570")
+createAnimationButton("Drink Anim", "61914540")
+createAnimationButton("Hyperbike Pose", "214738896")
+createAnimationButton("RoPed Stand Up", "180270832")
+createAnimationButton("Large Gun Hold", "941134851")
+createAnimationButton("Slash", "186934658")
+createAnimationButton("SprayPaint", "78494810")
+createAnimationButton("Bang Sus", "106772613")
+createAnimationButton("Tool Slash", "129967390")
+createAnimationButton("Rocket Throw", "162861977")
+createAnimationButton("Lamp Anim", "71012326")
+createAnimationButton("Plant Anim", "74897796")
+createAnimationButton("Drink Hot Sauce", "29517689")
+createAnimationButton("Staff up", "27432691")
+createAnimationButton("Launch Hand", "33323745")
+createAnimationButton("Tool Lunge", "129967478")
+createAnimationButton("Fast Sword Slash", "41824837")
+createAnimationButton("Pitch Fork", "164025878")
+createAnimationButton("Fire Gun", "123896085")
+createAnimationButton("Staff Spin", "27763939")
+createAnimationButton("something", "123101323")
+createAnimationButton("Reload Gun", "190070243")
+createAnimationButton("Fly Wings", "90828653")
+createAnimationButton("Wave Tool", "160725720")
+createAnimationButton("FlameThrower Hold", "168086975")
+createAnimationButton("flaem", "116690317")
+createAnimationButton("Thrust", "93633158")
+createAnimationButton("StaffPound", "93696468")
+createAnimationButton("holdplz2", "116690317")
+createAnimationButton("Ollie", "160737450")
+createAnimationButton("Whack", "32659706")
+createAnimationButton("Ban Hammer Hold", "48138189")
+createAnimationButton("Cannon", "176177529")
+createAnimationButton("Laser Gun Equip", "182631367")
+createAnimationButton("Light Firethrower", "75322014")
+createAnimationButton("Toss", "75321266")
+createAnimationButton("BeatBox", "45504977")
+createAnimationButton("sword swing jump", "32659699")
+createAnimationButton("twohandswordswing", "32659706")
+createAnimationButton("Floor Crawl", "282574440")
+createAnimationButton("Dab", "183412246")
+createAnimationButton("Super Faint", "181525546")
+createAnimationButton("Dino Walk", "204328711")
+createAnimationButton("Loop Slam", "204295235")
+createAnimationButton("Float Sit", "179224234")
+createAnimationButton("Barrel Roll", "136801964")
+createAnimationButton("Jumping Jacks", "429681631")
+createAnimationButton("Weird Move", "215384594")
+createAnimationButton("Floating Head", "121572214")
+createAnimationButton("Levitate", "313762630")
+createAnimationButton("Hero Jump", "184574340")
+createAnimationButton("Head Throw", "35154961")
+createAnimationButton("Moon Dance", "45834924")
+createAnimationButton("Slap", "204062532")
+createAnimationButton("Crouch", "182724289")
+createAnimationButton("Walking Dance", "429703734")
+createAnimationButton("Spinner", "188632011")
+createAnimationButton("Holding Gun", "182393478")
+createAnimationButton("Grenade Throw", "168160500")
+createAnimationButton("Drive Thru", "168138731")
+createAnimationButton("Flute", "52154760")
+createAnimationButton("TableFlip", "111898867")
+createAnimationButton("Slash Ice", "223624106")
+createAnimationButton("zmobie", "223623937")
+createAnimationButton("Begin Smash", "120735709")
+createAnimationButton("End Smash", "120735762")
+createAnimationButton("Standing", "158821881")
+createAnimationButton("QuickSlash", "49815113")
+createAnimationButton("Sword Equip", "94160581")
+createAnimationButton("Begin Charge", "252394340")
+createAnimationButton("Charge", "252395365")
+createAnimationButton("Release Charge", "252395746")
+createAnimationButton("BDB Idle", "214747217")
+createAnimationButton("BDB Walk", "214748382")
+createAnimationButton("BDB Slash", "214744167")
+createAnimationButton("BDb Staff", "214744412")
+createAnimationButton("Weird Swing", "59085834")
+createAnimationButton("High Slash", "1098424552")
+createAnimationButton("Rock Sword Equip", "317460113")
+createAnimationButton("Bash", "193343548")
+createAnimationButton("StaffSlash", "46756384")
+createAnimationButton("Tank Guitar", "265084639")
+createAnimationButton("RHK2 Kick Ninja", "45738282")
+createAnimationButton("FireCast", "32326240")
+createAnimationButton("Sword Thrust", "32659703")
+createAnimationButton("Grim Walk", "27759788")
+createAnimationButton("Grim Double Hit", "27763344")
+createAnimationButton("Grim Strike", "27761123")
+createAnimationButton("Hold Grim", "27758613")
+createAnimationButton("Gravity Slam", "33169573")
+createAnimationButton("Wand Swing", "35978913")
+createAnimationButton("Shake Hand", "177443776")
+createAnimationButton("Eat", "103822775")
+createAnimationButton("Throw", "209875013")
+createAnimationButton("Holding Gun", "264034706")
+createAnimationButton("Shoot", "97884303")
+createAnimationButton("Reloading Gun", "97885754")
+createAnimationButton("Chop", "186934753")
+createAnimationButton("Slash", "186934658")
+createAnimationButton("Sword Pump Up", "85723345")
+createAnimationButton("Ninja Sword Slash", "45873069")
+createAnimationButton("Shoot Cannon", "182463144")
+createAnimationButton("Button Press", "75322014")
+createAnimationButton("Sword Shield", "94789762")
+createAnimationButton("Electric Guitar", "99200153")
+createAnimationButton("Pluck Guitar Electric", "99198989")
+createAnimationButton("Cheers", "314726307")
+createAnimationButton("OverHeadSwing", "74897796")
+createAnimationButton("ChopPunch", "181263498")
+createAnimationButton("UpperPunch", "181263202")
+createAnimationButton("SlingShot", "33248324")
+createAnimationButton("Rage", "72635723")
+createAnimationButton("Spin Arms", "233087184")
+createAnimationButton("Two Hand Hold Out", "233077885")
+createAnimationButton("Spin Arms 2", "259438880")
+createAnimationButton("Arm", "259440107")
+createAnimationButton("Arms Out Spin", "235542946")
+createAnimationButton("SlashAnim", "63718551")
+createAnimationButton("Kick Hit", "188443632")
+createAnimationButton("Clap", "54456096")
+createAnimationButton("idk what that is", "69427277")
+createAnimationButton("slowly arms out", "69427262")
+createAnimationButton("Salute", "186673959")
+createAnimationButton("StandStill", "167272039")
+createAnimationButton("Throw Candy", "181437419")
+createAnimationButton("Hands Shaking", "93711728")
+createAnimationButton("Shield", "49763871")
+createAnimationButton("ShieldBash", "49907410")
+createAnimationButton("Dance", "248263260")
+createAnimationButton("Slap Face", "46182987")
+createAnimationButton("Robot Dance", "466755434")
+createAnimationButton("Horn Potion Run", "126707392")
+createAnimationButton("On Fire", "90117804")
+createAnimationButton("Horse Ride", "321277423")
+createAnimationButton("Flower", "80395075")
+createAnimationButton("Hands", "159223413")
+createAnimationButton("Swing Thonas Hand", "243827693")
+createAnimationButton("Motorcycle", "247487116")
+createAnimationButton("Sword Crit Up", "66703957")
+createAnimationButton("Sword", "66702743")
+createAnimationButton("Ice Bucket Throw", "173673979")
+createAnimationButton("Holding Object", "151316061")
+createAnimationButton("Glider Fly", "90872539")
+createAnimationButton("Kick Legs", "60882887")
+createAnimationButton("Wave", "55270038")
+createAnimationButton("Idle", "94108418")
+createAnimationButton("Probably Dance", "94161088")
+createAnimationButton("Spin", "188632011")
+createAnimationButton("Weird Thrust", "94161333")
+createAnimationButton("OverHeadSwing", "94160738")
+createAnimationButton("Gun", "95383474")
+createAnimationButton("Shoot", "95383980")
+createAnimationButton("Shake", "99807079")
+createAnimationButton("Tuck Ski", "142890187")
+createAnimationButton("Dancing Jacks", {"204328711", "429681631"})
+createAnimationButton("Playing Piano", "673670051")
+createAnimationButton("GOONMAX💀", {"95383980", "167272039", "99807079", "106772613"})
+createAnimationButton("BackPack Head", "68339848")
+createAnimationButton("Crying", "180612465")
+createAnimationButton("Weird Legs", "248336459")
+createAnimationButton("Kick Back", "33686061")
+createAnimationButton("WereWolf Curl", "42070810")
+createAnimationButton("Saxphone", "45036843")
+createAnimationButton("RHK", "45733005")
+createAnimationButton("Penguin Jump", "46196309")
+createAnimationButton("Staff Taunt", "46700863")
+createAnimationButton("Praying", "48137861")
+createAnimationButton("Flute Dance", "52155014")
+createAnimationButton("Shaking Hand", "52414165")
+createAnimationButton("Test1", "54145508")
+createAnimationButton("Stroking It", "55786615")
+createAnimationButton("Stroking It Fast", "55791140")
+createAnimationButton("Scream", "73137648")
+createAnimationButton("Sword Fire", "74815981")
+createAnimationButton("moon charge", "74909500")
+createAnimationButton("Start Rest", "75356030")
+createAnimationButton("Tapping Head", "75477112")
+createAnimationButton("Swing Hand", "78394786")
+createAnimationButton("Testzzzzz", "79418964")
+createAnimationButton("anim walk", "80979216")
+createAnimationButton("anim stand", "80979207")
+createAnimationButton("Wavy Hands", "85568863")
+createAnimationButton("Head Swing", "85570603")
+createAnimationButton("Sports Jump", "85837259")
+createAnimationButton("Call me", "86614939")
+createAnimationButton("Idle Fencing", "87983681")
+createAnimationButton("Lunge Fencing", "87985027")
+createAnimationButton("Shaking Legs", "87986341")
+createAnimationButton("Head Right Position", "88016955")
+createAnimationButton("Psycho Arms", "90814669")
+createAnimationButton("Self Harm", "91346946")
+createAnimationButton("Enrage", "93648331")
+createAnimationButton("Summon", "93693205")
+createAnimationButton("Throw", "94157627")
+createAnimationButton("Slam Leg", "94190213")
+createAnimationButton("Execute", "94790629")
+createAnimationButton("Fall Panic", "95424077")
+createAnimationButton("Spartain Kick", "96619712")
+createAnimationButton("Looking Up", "97169019")
+createAnimationButton("Jump Jets", "97170520")
+createAnimationButton("Landing Jets", "97171309")
+createAnimationButton("nothinbg", "98454170")
+createAnimationButton("yay Falling money", "99815141")
+createAnimationButton("Run Charge", "100348530")
+createAnimationButton("Football Dance", "101862746")
+createAnimationButton("Arm Test", "102492689")
+createAnimationButton("ArmTest 2", "103744157")
+createAnimationButton("ArmTest 3", "103798833")
+createAnimationButton("Laying While Snipe Gun", "113246235")
+createAnimationButton("Laying Down", "181526230")
+createAnimationButton("Faint", "181525546")
+createAnimationButton("Laser Gun Crawl", "182749109")
+createAnimationButton("BEND OVER!!!", "182789003")
+createAnimationButton("Cover Face", "183696478")
+createAnimationButton("DinoWalk", "190075311")
+createAnimationButton("Sai Fall", "233322916")
+createAnimationButton("SideStep UpperSlash", "247744115")
+createAnimationButton("Crouch", "287325678")
+createAnimationButton("Sleep", "327324663")
+createAnimationButton("Throw", "28604759")
+createAnimationButton("Monster Mash Dance", "35634514")
+createAnimationButton("Monster Mash Dance 2", "35654637")
+createAnimationButton("Listening Boombox", "122342062")
+createAnimationButton("Cannon Up", "56146409")
+createAnimationButton("Cannon Down", "56153856")
+createAnimationButton("Beating Chest", "72635328")
+createAnimationButton("Shaking Arms Ig", "73177702")
+createAnimationButton("Arm Slash Sides", "74909569")
+createAnimationButton("Calling Someone", "87684948")
+createAnimationButton("Hockey Check", "142495255")
+createAnimationButton("Arms Up", "187951261")
+createAnimationButton("Arms Out ", "188242481")
+createAnimationButton("Bomb Hold", "94861246")
+createAnimationButton("Shiver", "216937924")
+createAnimationButton("MRBEAST MEME POINT", "243656287")
+
+local tweenService2 = game:GetService("TweenService")
+
+-- Ensure ScrollingFrame is correctly referenced
+local ScrollingFrame3 = a["ScrollingFrame 3"]
+if not ScrollingFrame3 then
+    error("ScrollingFrame not found in 'a'!")
+end
+
+-- Function to create buttons for animations
+local function createSpeedButton(name, speed)
+    local button2 = Instance.new("TextButton")
+    local buttonCorner2 = Instance.new("UICorner")
+    
+    -- Apply provided properties
+    button2.Size = UDim2.new(0, 385, 0, 39)
+    button2.BackgroundColor3 = Color3.fromRGB(6, 64, 108)
+    button2.FontFace = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    button2.Text = name
+    button2.TextColor3 = Color3.fromRGB(255, 255, 255)
+    button2.TextSize = 17
+    button2.Name = "Animation"
+    button2.Parent = ScrollingFrame3
+    button2.AutoButtonColor = false
+
+    buttonCorner2.CornerRadius = UDim.new(0, 5)
+    buttonCorner2.Name = "butcorner"
+    buttonCorner2.Parent = button2
+
+    local infobutton2 = Instance.new("ImageButton")
+    infobutton2.Position = UDim2.new(0.02857142873108387, 0, 0.23076924681663513, 0)
+    infobutton2.Size = UDim2.new(0, 20, 0, 21)
+    infobutton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    infobutton2.BackgroundTransparency = 1
+    infobutton2.Image = "http://www.roblox.com/asset/?id=6294110112"
+    infobutton2.Name = "infobutton"
+    infobutton2.Parent = button2
+
+    -- Store button reference for search functionality
+    table.insert(buttons, button2)
+
+    -- Hover effect
+    button2.MouseButton1Down:Connect(function()
+        local hoverTween2 = tweenService2:Create(button2,
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(105, 158, 158)}
+        )
+        hoverTween2:Play()
+    end)
+
+    -- Leave effect
+    button2.MouseButton1Up:Connect(function()
+        local leaveTween2 = tweenService2:Create(button2,
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(6, 64, 108)}
+        )
+        leaveTween2:Play()
+    end)
+
+    -- Button click functionality
+    button2.MouseButton1Click:Connect(function()
+        local humanoid = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            -- Adjust speed for each active animation
+            for _, animationTrack in pairs(activeAnimations) do
+                if animationTrack then
+                    animationTrack:AdjustSpeed(speed) -- Use the predefined speed
+                end
+            end
+        end
+    end)
+end
+
+-- Create a button as an example
+createSpeedButton("0.1x", 0.1)
+createSpeedButton("0.2x", 0.2)
+createSpeedButton("0.3x", 0.3)
+createSpeedButton("0.4x", 0.4)
+createSpeedButton("0.5x", 0.5)
+createSpeedButton("0.6x", 0.6)
+createSpeedButton("0.7x", 0.7)
+createSpeedButton("0.8x", 0.8)
+createSpeedButton("0.9x", 0.9)
+createSpeedButton("1x", 1)
+createSpeedButton("2x", 2)
+createSpeedButton("3x", 3)
+createSpeedButton("4x", 4)
+createSpeedButton("5x", 5)
+createSpeedButton("6x", 6)
+createSpeedButton("7x", 7)
+createSpeedButton("8x", 8)
+createSpeedButton("9x", 9)
+createSpeedButton("10x", 10)
+createSpeedButton("50x", 50)
+createSpeedButton("100x", 100)
+createSpeedButton("500x", 500)
+createSpeedButton("1000x", 1000)
+createSpeedButton("Mega Speed", 5000)
+createSpeedButton("Super Speed", 10000)
+createSpeedButton("Insane Speed", 90000)
+createSpeedButton("Insane Mega Speed", 1000000)
+
+
+a["ScrollingFrame"]["Position"] = UDim2.new(0, 0, .18320614099502563, 0)
+a["ScrollingFrame"]["Size"] = UDim2.new(0, 420, 0, 261)
+a["ScrollingFrame"]["Active"] = true
+a["ScrollingFrame"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["ScrollingFrame"]["BackgroundTransparency"] = 1
+a["ScrollingFrame"]["BorderSizePixel"] = 0
+a["ScrollingFrame"]["CanvasSize"] = UDim2.new(0, 0, 0, 2850)
+a["ScrollingFrame"]["ScrollBarImageColor3"] = Color3.fromRGB(14, 114, 150)
+a["ScrollingFrame"]["Name"] = "ScrollingFrame"
+a["ScrollingFrame"]["Parent"] = a["Animations"]
+
+a["UIListLayout 2"]["Padding"] = UDim.new(0, 7)
+a["UIListLayout 2"]["SortOrder"] = Enum.SortOrder.LayoutOrder
+a["UIListLayout 2"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+a["UIListLayout 2"]["Name"] = "UIListLayout"
+a["UIListLayout 2"]["Parent"] = a["ScrollingFrame"]
+
+a["tabspacing 2"]["Position"] = UDim2.new(.044917259365320206, 0, 0.0000003767602265725145, 0)
+a["tabspacing 2"]["Size"] = UDim2.new(0, 385, 0, 1)
+a["tabspacing 2"]["Active"] = false
+a["tabspacing 2"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66)
+a["tabspacing 2"]["BackgroundTransparency"] = 1
+a["tabspacing 2"]["Selectable"] = false
+a["tabspacing 2"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabspacing 2"]["Text"] = " "
+a["tabspacing 2"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabspacing 2"]["TextSize"] = 22
+a["tabspacing 2"]["Name"] = "tabspacing"
+a["tabspacing 2"]["Parent"] = a["ScrollingFrame"]
+
+a["SearchBar"]["Position"] = UDim2.new(0, 12, 0, 21)
+a["SearchBar"]["Size"] = UDim2.new(0, 396, 0, 34)
+a["SearchBar"]["BackgroundColor3"] = Color3.fromRGB(0, 80, 138)
+a["SearchBar"]["BackgroundTransparency"] = 0.5
+a["SearchBar"]["FontFace"] = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["SearchBar"]["Text"] = ""
+a["SearchBar"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["SearchBar"]["TextSize"] = 20
+a["SearchBar"]["PlaceholderText"] = "search bar"
+a["SearchBar"]["Name"] = "SearchBar"
+a["SearchBar"]["Parent"] = a["Animations"]
+
+a["SearchBar"]:GetPropertyChangedSignal("Text"):Connect(function()
+    local searchText = string.lower(a["SearchBar"].Text)
+    for _, button in ipairs(buttons) do
+        if string.find(string.lower(button.Text), searchText, 1, true) then
+            button.Visible = true
+        else
+            button.Visible = false
+        end
+    end
+end)
+
+
+a["searchicon"]["Position"] = UDim2.new(.03799999877810478, 0, .23000000417232513, 0)
+a["searchicon"]["Size"] = UDim2.new(0, 20, 0, 20)
+a["searchicon"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["searchicon"]["BackgroundTransparency"] = 1
+a["searchicon"]["Image"] = "rbxassetid://2804603863"
+a["searchicon"]["Name"] = "searchicon"
+a["searchicon"]["Parent"] = a["SearchBar"]
+
+a["UICorner 123"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 123"]["Name"] = "UICorner"
+a["UICorner 123"]["Parent"] = a["SearchBar"]
+
+a["Extras"]["Position"] = UDim2.new(.302325576543808, 0, .0918114110827446, 0)
+a["Extras"]["Size"] = UDim2.new(0, 420, 0, 320)
+a["Extras"]["BackgroundColor3"] = Color3.fromRGB(26, 32, 58)
+a["Extras"]["Visible"] = false
+a["Extras"]["Name"] = "Extras"
+a["Extras"]["Parent"] = a["Main"]
+
+a["currenttab 2"]["Position"] = UDim2.new(0, 20, 0, 11)
+a["currenttab 2"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["currenttab 2"]["Text"] = "Extras"
+a["currenttab 2"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["currenttab 2"]["TextSize"] = 14
+a["currenttab 2"]["TextXAlignment"] = Enum.TextXAlignment.Left
+a["currenttab 2"]["Name"] = "currenttab"
+a["currenttab 2"]["Parent"] = a["Extras"]
+
+a["UICorner 124"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 124"]["Name"] = "UICorner"
+a["UICorner 124"]["Parent"] = a["Extras"]
+
+a["ScrollingFrame 2"]["Position"] = UDim2.new(0, 0, .0820000022649765, 0)
+a["ScrollingFrame 2"]["Size"] = UDim2.new(0, 420, 0, 294)
+a["ScrollingFrame 2"]["Active"] = true
+a["ScrollingFrame 2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["ScrollingFrame 2"]["BackgroundTransparency"] = 1
+a["ScrollingFrame 2"]["BorderSizePixel"] = 0
+a["ScrollingFrame 2"]["CanvasSize"] = UDim2.new(0, 0, 0, 350)
+a["ScrollingFrame 2"]["ScrollBarImageColor3"] = Color3.fromRGB(14, 114, 150)
+a["ScrollingFrame 2"]["Name"] = "ScrollingFrame"
+a["ScrollingFrame 2"]["Parent"] = a["Extras"]
+
+a["UIListLayout 3"]["Padding"] = UDim.new(0, 7)
+a["UIListLayout 3"]["SortOrder"] = Enum.SortOrder.LayoutOrder
+a["UIListLayout 3"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+a["UIListLayout 3"]["Name"] = "UIListLayout"
+a["UIListLayout 3"]["Parent"] = a["ScrollingFrame 2"]
+
+a["tabspacing 3"]["Position"] = UDim2.new(.044917259365320206, 0, 0.0000003767602265725145, 0)
+a["tabspacing 3"]["Size"] = UDim2.new(0, 385, 0, 1)
+a["tabspacing 3"]["Active"] = false
+a["tabspacing 3"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66)
+a["tabspacing 3"]["BackgroundTransparency"] = 1
+a["tabspacing 3"]["Selectable"] = false
+a["tabspacing 3"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabspacing 3"]["Text"] = " "
+a["tabspacing 3"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabspacing 3"]["TextSize"] = 22
+a["tabspacing 3"]["Name"] = "tabspacing"
+a["tabspacing 3"]["Parent"] = a["ScrollingFrame 2"]
+
+a["AquaMatrix | FE R15 Animations 2"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 2"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 2"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 2"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 2"]["Text"] = "Tool"
+a["AquaMatrix | FE R15 Animations 2"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 2"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 2"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 2"]["Parent"] = a["ScrollingFrame 2"]
+
+a["UICorner 125"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 125"]["Name"] = "UICorner"
+a["UICorner 125"]["Parent"] = a["AquaMatrix | FE R15 Animations 2"]
+
+a["Jerk Off Tool"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["Jerk Off Tool"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["Jerk Off Tool"]["BackgroundColor3"] = Color3.fromRGB(6, 64, 108)
+a["Jerk Off Tool"]["ZIndex"] = 1
+a["Jerk Off Tool"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["Jerk Off Tool"]["Text"] = "Jerk Off Tool By Giobolqvi"
+a["Jerk Off Tool"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["Jerk Off Tool"]["TextSize"] = 17
+a["Jerk Off Tool"]["Name"] = "Jerk Off Tool"
+a["Jerk Off Tool"]["AutoButtonColor"] = false
+a["Jerk Off Tool"]["Parent"] = a["ScrollingFrame 2"]
+a["Jerk Off Tool"].MouseButton1Click:Connect(function()
+    a["Sound 2"]:Play()
+    loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+end)
+
+    -- Leave effect
+    a["Jerk Off Tool"].MouseButton1Up:Connect(function()
+        local leaveTween2 = tweenService2:Create(a["Jerk Off Tool"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(6, 64, 108)}
+        )
+        leaveTween2:Play()
+    end)
+    
+    -- Hover effect
+    a["Jerk Off Tool"].MouseButton1Down:Connect(function()
+        local hoverTween2 = tweenService2:Create(a["Jerk Off Tool"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(105, 158, 158)}
+        )
+        hoverTween2:Play()
+    end)
+
+a["Monster Mash Tool"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["Monster Mash Tool"]["BackgroundColor3"] = Color3.fromRGB(6, 64, 108)
+a["Monster Mash Tool"]["ZIndex"] = 1
+a["Monster Mash Tool"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["Monster Mash Tool"]["Text"] = "Monster Mash Tool"
+a["Monster Mash Tool"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["Monster Mash Tool"]["TextSize"] = 17
+a["Monster Mash Tool"]["Name"] = "Monster Mash Tool"
+a["Monster Mash Tool"]["AutoButtonColor"] = false
+a["Monster Mash Tool"]["Parent"] = a["ScrollingFrame 2"]
+a["Monster Mash Tool"].MouseButton1Click:Connect(function()
+    a["Sound 2"]:Play()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zerpharix/utrenklpleaserapeme/refs/heads/main/monstermashpotion"))()
+end)
+
+    -- Leave effect
+    a["Monster Mash Tool"].MouseButton1Up:Connect(function()
+        local leaveTween2 = tweenService2:Create(a["Monster Mash Tool"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(6, 64, 108)}
+        )
+        leaveTween2:Play()
+    end)
+    
+    -- Hover effect
+    a["Monster Mash Tool"].MouseButton1Down:Connect(function()
+        local hoverTween2 = tweenService2:Create(a["Monster Mash Tool"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(105, 158, 158)}
+        )
+        hoverTween2:Play()
+    end)
+
+
+a["butcorner 666"]["CornerRadius"] = UDim.new(0, 5)
+a["butcorner 666"]["Name"] = "butcorner"
+a["butcorner 666"]["Parent"] = a["Monster Mash Tool"]
+
+a["infobutton 666"]["Position"] = UDim2.new(.02857142873108387, 0, .23076924681663513, 0)
+a["infobutton 666"]["Size"] = UDim2.new(0, 20, 0, 21)
+a["infobutton 666"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["infobutton 666"]["BackgroundTransparency"] = 1
+a["infobutton 666"]["Image"] = "http://www.roblox.com/asset/?id=6294110112"
+a["infobutton 666"]["Name"] = "infobutton"
+a["infobutton 666"]["Parent"] = a["Monster Mash Tool"]
+
+a["butcorner 58"]["CornerRadius"] = UDim.new(0, 5)
+a["butcorner 58"]["Name"] = "butcorner"
+a["butcorner 58"]["Parent"] = a["Jerk Off Tool"]
+
+a["infobutton 58"]["Position"] = UDim2.new(.02857142873108387, 0, .23076924681663513, 0)
+a["infobutton 58"]["Size"] = UDim2.new(0, 20, 0, 21)
+a["infobutton 58"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["infobutton 58"]["BackgroundTransparency"] = 1
+a["infobutton 58"]["Image"] = "http://www.roblox.com/asset/?id=6294110112"
+a["infobutton 58"]["Name"] = "infobutton"
+a["infobutton 58"]["Parent"] = a["Jerk Off Tool"]
+
+a["AquaMatrix | FE R15 Animations 3"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 3"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 3"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 3"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 3"]["Text"] = "Animation"
+a["AquaMatrix | FE R15 Animations 3"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 3"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 3"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 3"]["Parent"] = a["ScrollingFrame 2"]
+
+a["UICorner 126"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 126"]["Name"] = "UICorner"
+a["UICorner 126"]["Parent"] = a["AquaMatrix | FE R15 Animations 3"]
+
+a["Dash Animation"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["Dash Animation"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["Dash Animation"]["BackgroundColor3"] = Color3.fromRGB(6, 64, 108)
+a["Dash Animation"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["Dash Animation"]["Text"] = "Dash Animation By Giobolqvi"
+a["Dash Animation"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["Dash Animation"]["TextSize"] = 17
+a["Dash Animation"]["AutoButtonColor"] = false
+a["Dash Animation"]["ZIndex"] = 1
+a["Dash Animation"]["Name"] = "Dash Animation"
+a["Dash Animation"]["Parent"] = a["ScrollingFrame 2"]
+
+a["Dash Animation"].MouseButton1Click:Connect(function()
+    a["Sound 2"]:Play()
+    loadstring(game:HttpGet("https://pastefy.app/ZhKVgCK3/raw"))()
+end)
+
+
+    -- Leave effect
+    a["Dash Animation"].MouseButton1Up:Connect(function()
+        local leaveTween2 = tweenService2:Create(a["Dash Animation"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(6, 64, 108)}
+        )
+        leaveTween2:Play()
+    end)
+    
+    -- Hover effect
+    a["Dash Animation"].MouseButton1Down:Connect(function()
+        local hoverTween2 = tweenService2:Create(a["Dash Animation"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(105, 158, 158)}
+        )
+        hoverTween2:Play()
+    end)
+
+a["butcorner 59"]["CornerRadius"] = UDim.new(0, 5)
+a["butcorner 59"]["Name"] = "butcorner"
+a["butcorner 59"]["Parent"] = a["Dash Animation"]
+
+a["infobutton 59"]["Position"] = UDim2.new(.02857142873108387, 0, .23076924681663513, 0)
+a["infobutton 59"]["Size"] = UDim2.new(0, 20, 0, 21)
+a["infobutton 59"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["infobutton 59"]["BackgroundTransparency"] = 1
+a["infobutton 59"]["Image"] = "http://www.roblox.com/asset/?id=6294110112"
+a["infobutton 59"]["Name"] = "infobutton"
+a["infobutton 59"]["Parent"] = a["Dash Animation"]
+
+a["R6 Psycho Animation"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["R6 Psycho Animation"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["R6 Psycho Animation"]["BackgroundColor3"] = Color3.fromRGB(6, 64, 108)
+a["R6 Psycho Animation"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["R6 Psycho Animation"]["Text"] = "R6 Psycho Animation By Giobolqvi"
+a["R6 Psycho Animation"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["R6 Psycho Animation"]["TextSize"] = 17
+a["R6 Psycho Animation"]["AutoButtonColor"] = false
+a["R6 Psycho Animation"]["ZIndex"] = 1
+a["R6 Psycho Animation"]["Name"] = "R6 Psycho Animation By Giobolqvi"
+a["R6 Psycho Animation"]["Parent"] = a["ScrollingFrame 2"]
+
+a["R6 Psycho Animation"].MouseButton1Click:Connect(function()
+    a["Sound 2"]:Play()
+    loadstring(game:HttpGet("https://pastefy.app/YJITpCRA/raw"))() -----Psycho animation
+end)
+
+
+    -- Leave effect
+    a["R6 Psycho Animation"].MouseButton1Up:Connect(function()
+        local leaveTween2 = tweenService2:Create(a["R6 Psycho Animation"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(6, 64, 108)}
+        )
+        leaveTween2:Play()
+    end)
+    
+    -- Hover effect
+    a["R6 Psycho Animation"].MouseButton1Down:Connect(function()
+        local hoverTween2 = tweenService2:Create(a["R6 Psycho Animation"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(105, 158, 158)}
+        )
+        hoverTween2:Play()
+    end)
+
+a["butcorner 777"]["CornerRadius"] = UDim.new(0, 5)
+a["butcorner 777"]["Name"] = "butcorner"
+a["butcorner 777"]["Parent"] = a["R6 Psycho Animation"]
+
+a["infobutton 777"]["Position"] = UDim2.new(.02857142873108387, 0, .23076924681663513, 0)
+a["infobutton 777"]["Size"] = UDim2.new(0, 20, 0, 21)
+a["infobutton 777"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["infobutton 777"]["BackgroundTransparency"] = 1
+a["infobutton 777"]["Image"] = "http://www.roblox.com/asset/?id=6294110112"
+a["infobutton 777"]["Name"] = "infobutton"
+a["infobutton 777"]["Parent"] = a["R6 Psycho Animation"]
+
+
+a["R6 Killer Animation"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["R6 Killer Animation"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["R6 Killer Animation"]["BackgroundColor3"] = Color3.fromRGB(6, 64, 108)
+a["R6 Killer Animation"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["R6 Killer Animation"]["Text"] = "R6 Killer Animation By Giobolqvi"
+a["R6 Killer Animation"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["R6 Killer Animation"]["TextSize"] = 17
+a["R6 Killer Animation"]["AutoButtonColor"] = false
+a["R6 Killer Animation"]["ZIndex"] = 1
+a["R6 Killer Animation"]["Name"] = "R6 Killer Animation By Giobolqvi"
+a["R6 Killer Animation"]["Parent"] = a["ScrollingFrame 2"]
+
+a["R6 Killer Animation"].MouseButton1Click:Connect(function()
+    a["Sound 2"]:Play()
+    loadstring(game:HttpGet("https://pastefy.app/riYch0rX/raw"))() -----Killer animation
+end)
+
+
+    -- Leave effect
+    a["R6 Killer Animation"].MouseButton1Up:Connect(function()
+        local leaveTween2 = tweenService2:Create(a["R6 Killer Animation"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(6, 64, 108)}
+        )
+        leaveTween2:Play()
+    end)
+    
+    -- Hover effect
+    a["R6 Killer Animation"].MouseButton1Down:Connect(function()
+        local hoverTween2 = tweenService2:Create(a["R6 Killer Animation"],
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(105, 158, 158)}
+        )
+        hoverTween2:Play()
+    end)
+
+a["butcorner 888"]["CornerRadius"] = UDim.new(0, 5)
+a["butcorner 888"]["Name"] = "butcorner"
+a["butcorner 888"]["Parent"] = a["R6 Killer Animation"]
+
+a["infobutton 888"]["Position"] = UDim2.new(.02857142873108387, 0, .23076924681663513, 0)
+a["infobutton 888"]["Size"] = UDim2.new(0, 20, 0, 21)
+a["infobutton 888"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["infobutton 888"]["BackgroundTransparency"] = 1
+a["infobutton 888"]["Image"] = "http://www.roblox.com/asset/?id=6294110112"
+a["infobutton 888"]["Name"] = "infobutton"
+a["infobutton 888"]["Parent"] = a["R6 Killer Animation"]
+
+a["Speed"]["Position"] = UDim2.new(.302325576543808, 0, .0918114110827446, 0)
+a["Speed"]["Size"] = UDim2.new(0, 420, 0, 320)
+a["Speed"]["BackgroundColor3"] = Color3.fromRGB(26, 32, 58)
+a["Speed"]["Visible"] = false
+a["Speed"]["Name"] = "Speed"
+a["Speed"]["Parent"] = a["Main"]
+
+a["currenttab 3"]["Position"] = UDim2.new(0, 20, 0, 11)
+a["currenttab 3"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["currenttab 3"]["Text"] = "Speed"
+a["currenttab 3"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["currenttab 3"]["TextSize"] = 14
+a["currenttab 3"]["TextXAlignment"] = Enum.TextXAlignment.Left
+a["currenttab 3"]["Name"] = "currenttab"
+a["currenttab 3"]["Parent"] = a["Speed"]
+
+a["UICorner 127"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 127"]["Name"] = "UICorner"
+a["UICorner 127"]["Parent"] = a["Speed"]
+
+a["ScrollingFrame 3"]["Position"] = UDim2.new(0, 0, .0820000022649765, 0)
+a["ScrollingFrame 3"]["Size"] = UDim2.new(0, 420, 0, 294)
+a["ScrollingFrame 3"]["Active"] = true
+a["ScrollingFrame 3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["ScrollingFrame 3"]["BackgroundTransparency"] = 1
+a["ScrollingFrame 3"]["BorderSizePixel"] = 0
+a["ScrollingFrame 3"]["CanvasSize"] = UDim2.new(0, 0, 0, 1415)
+a["ScrollingFrame 3"]["ScrollBarImageColor3"] = Color3.fromRGB(14, 114, 150)
+a["ScrollingFrame 3"]["Name"] = "ScrollingFrame"
+a["ScrollingFrame 3"]["Parent"] = a["Speed"]
+
+a["UIListLayout 4"]["Padding"] = UDim.new(0, 7)
+a["UIListLayout 4"]["SortOrder"] = Enum.SortOrder.LayoutOrder
+a["UIListLayout 4"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+a["UIListLayout 4"]["Name"] = "UIListLayout"
+a["UIListLayout 4"]["Parent"] = a["ScrollingFrame 3"]
+
+a["tabspacing 4"]["Position"] = UDim2.new(.044917259365320206, 0, 0.0000003767602265725145, 0)
+a["tabspacing 4"]["Size"] = UDim2.new(0, 385, 0, 1)
+a["tabspacing 4"]["Active"] = false
+a["tabspacing 4"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66)
+a["tabspacing 4"]["BackgroundTransparency"] = 1
+a["tabspacing 4"]["Selectable"] = false
+a["tabspacing 4"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabspacing 4"]["Text"] = " "
+a["tabspacing 4"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabspacing 4"]["TextSize"] = 22
+a["tabspacing 4"]["Name"] = "tabspacing"
+a["tabspacing 4"]["Parent"] = a["ScrollingFrame 3"]
+
+a["UICorner 128"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 128"]["Name"] = "UICorner"
+a["UICorner 128"]["Parent"] = a["AquaMatrix | FE R15 Animations 4"]
+
+a["Externals"]["Position"] = UDim2.new(.302325576543808, 0, .0918114110827446, 0)
+a["Externals"]["Size"] = UDim2.new(0, 420, 0, 320)
+a["Externals"]["BackgroundColor3"] = Color3.fromRGB(26, 32, 58)
+a["Externals"]["Visible"] = false
+a["Externals"]["Name"] = "Externals"
+a["Externals"]["Parent"] = a["Main"]
+
+a["currenttab 4"]["Position"] = UDim2.new(0, 20, 0, 11)
+a["currenttab 4"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["currenttab 4"]["Text"] = "Externals"
+a["currenttab 4"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["currenttab 4"]["TextSize"] = 14
+a["currenttab 4"]["TextXAlignment"] = Enum.TextXAlignment.Left
+a["currenttab 4"]["Name"] = "currenttab"
+a["currenttab 4"]["Parent"] = a["Externals"]
+
+a["UICorner 130"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 130"]["Name"] = "UICorner"
+a["UICorner 130"]["Parent"] = a["Externals"]
+
+a["ScrollingFrame 4"]["Position"] = UDim2.new(0, 0, .0820000022649765, 0)
+a["ScrollingFrame 4"]["Size"] = UDim2.new(0, 420, 0, 294)
+a["ScrollingFrame 4"]["Active"] = true
+a["ScrollingFrame 4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["ScrollingFrame 4"]["BackgroundTransparency"] = 1
+a["ScrollingFrame 4"]["BorderSizePixel"] = 0
+a["ScrollingFrame 4"]["CanvasSize"] = UDim2.new(0, 0, 0, 300)
+a["ScrollingFrame 4"]["ScrollBarImageColor3"] = Color3.fromRGB(14, 114, 150)
+a["ScrollingFrame 4"]["Name"] = "ScrollingFrame"
+a["ScrollingFrame 4"]["Parent"] = a["Externals"]
+
+a["UIListLayout 5"]["Padding"] = UDim.new(0, 7)
+a["UIListLayout 5"]["SortOrder"] = Enum.SortOrder.LayoutOrder
+a["UIListLayout 5"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+a["UIListLayout 5"]["Name"] = "UIListLayout"
+a["UIListLayout 5"]["Parent"] = a["ScrollingFrame 4"]
+
+a["tabspacing 5"]["Position"] = UDim2.new(.044917259365320206, 0, 0.0000003767602265725145, 0)
+a["tabspacing 5"]["Size"] = UDim2.new(0, 385, 0, 1)
+a["tabspacing 5"]["Active"] = false
+a["tabspacing 5"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66)
+a["tabspacing 5"]["BackgroundTransparency"] = 1
+a["tabspacing 5"]["Selectable"] = false
+a["tabspacing 5"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabspacing 5"]["Text"] = " "
+a["tabspacing 5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabspacing 5"]["TextSize"] = 22
+a["tabspacing 5"]["Name"] = "tabspacing"
+a["tabspacing 5"]["Parent"] = a["ScrollingFrame 4"]
+
+-- Ensure ScrollingFrame is correctly referenced
+local tweenService = game:GetService("TweenService")
+local ScrollingFrame4 = a["ScrollingFrame 4"]
+if not ScrollingFrame4 then
+    error("ScrollingFrame not found in 'a'!")
+end
+
+local buttons = {}
+
+local function createExecuteScriptButton(name, scriptFunction)
+    local button3 = Instance.new("TextButton")
+    local buttonCorner3 = Instance.new("UICorner")
+
+
+    button3.Position = UDim2.new(0.15011820197105408, 0, 0.0002540761779528111, 0)
+    button3.Size = UDim2.new(0, 385, 0, 39)
+    button3.BackgroundColor3 = Color3.fromRGB(6, 64, 108)
+    button3.FontFace = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    button3.Text = name
+    button3.TextColor3 = Color3.fromRGB(255, 255, 255)
+    button3.TextSize = 17
+    button3.Name = "Animation"
+    button3.Parent = ScrollingFrame4
+    button3.AutoButtonColor = false
+
+
+    buttonCorner3.CornerRadius = UDim.new(0, 5)
+    buttonCorner3.Name = "butcorner"
+    buttonCorner3.Parent = button3
+
+
+    local infobutton3 = Instance.new("ImageButton")
+    infobutton3.Position = UDim2.new(0.02857142873108387, 0, 0.23076924681663513, 0)
+    infobutton3.Size = UDim2.new(0, 20, 0, 21)
+    infobutton3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    infobutton3.BackgroundTransparency = 1
+    infobutton3.Image = "http://www.roblox.com/asset/?id=6294110112"
+    infobutton3.Name = "infobutton"
+    infobutton3.Parent = button3
+
+    table.insert(buttons, button3)
+
+    button3.MouseButton1Click:Connect(function()
+        a["Sound 2"]:Play()
+        pcall(scriptFunction)
+    end)
+
+    button3.MouseButton1Down:Connect(function()
+        local hoverTween = tweenService:Create(
+            button3,
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(105, 158, 158)}
+        )
+        hoverTween:Play()
+    end)
+
+    button3.MouseButton1Up:Connect(function()
+        local leaveTween = tweenService:Create(
+            button3,
+            TweenInfo.new(0.4, Enum.EasingStyle.Linear),
+            {BackgroundColor3 = Color3.fromRGB(6, 64, 108)}
+        )
+        leaveTween:Play()
+    end)
+end
+
+createExecuteScriptButton("Infinite Yield", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+createExecuteScriptButton("Xora Safety", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sytcal/Xora/main/EverthingIsForYourSafety"))()
+end)
+
+createExecuteScriptButton("Pluto V3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Horizon89002/PLUT0_V3/refs/heads/main/PLUT0%20V3%20(source).lua"))()
+end)
+
+createExecuteScriptButton("System Broken", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+end)
+
+createExecuteScriptButton("Debuggers", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/infyiff/backup/main/audiologger.lua'),true))()
+end)
+
+createExecuteScriptButton("Audio Logger", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/infyiff/backup/main/audiologger.lua'), true))()
+end)
+
+a["Info"]["Position"] = UDim2.new(.302325576543808, 0, .0918114110827446, 0)
+a["Info"]["Size"] = UDim2.new(0, 420, 0, 320)
+a["Info"]["BackgroundColor3"] = Color3.fromRGB(26, 32, 58)
+a["Info"]["Visible"] = false
+a["Info"]["Name"] = "Info"
+a["Info"]["Parent"] = a["Main"]
+
+a["currenttab 5"]["Position"] = UDim2.new(0, 20, 0, 11)
+a["currenttab 5"]["FontFace"] = Font.new("rbxasset://fonts/families/Ubuntu.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["currenttab 5"]["Text"] = "Info"
+a["currenttab 5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["currenttab 5"]["TextSize"] = 14
+a["currenttab 5"]["TextXAlignment"] = Enum.TextXAlignment.Left
+a["currenttab 5"]["Name"] = "currenttab"
+a["currenttab 5"]["Parent"] = a["Info"]
+
+a["UICorner 131"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 131"]["Name"] = "UICorner"
+a["UICorner 131"]["Parent"] = a["Info"]
+
+a["ScrollingFrame 5"]["Position"] = UDim2.new(0, 0, .0820000022649765, 0)
+a["ScrollingFrame 5"]["Size"] = UDim2.new(0, 420, 0, 294)
+a["ScrollingFrame 5"]["Active"] = true
+a["ScrollingFrame 5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+a["ScrollingFrame 5"]["BackgroundTransparency"] = 1
+a["ScrollingFrame 5"]["BorderSizePixel"] = 0
+a["ScrollingFrame 5"]["CanvasSize"] = UDim2.new(0, 0, 0, 330)
+a["ScrollingFrame 5"]["ScrollBarImageColor3"] = Color3.fromRGB(14, 114, 150)
+a["ScrollingFrame 5"]["Name"] = "ScrollingFrame"
+a["ScrollingFrame 5"]["Parent"] = a["Info"]
+
+a["UIListLayout 6"]["Padding"] = UDim.new(0, 7)
+a["UIListLayout 6"]["SortOrder"] = Enum.SortOrder.LayoutOrder
+a["UIListLayout 6"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+a["UIListLayout 6"]["Name"] = "UIListLayout"
+a["UIListLayout 6"]["Parent"] = a["ScrollingFrame 5"]
+
+a["tabspacing 6"]["Position"] = UDim2.new(.044917259365320206, 0, 0.0000003767602265725145, 0)
+a["tabspacing 6"]["Size"] = UDim2.new(0, 385, 0, 1)
+a["tabspacing 6"]["Active"] = false
+a["tabspacing 6"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66)
+a["tabspacing 6"]["BackgroundTransparency"] = 1
+a["tabspacing 6"]["Selectable"] = false
+a["tabspacing 6"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["tabspacing 6"]["Text"] = " "
+a["tabspacing 6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["tabspacing 6"]["TextSize"] = 22
+a["tabspacing 6"]["Name"] = "tabspacing"
+a["tabspacing 6"]["Parent"] = a["ScrollingFrame 5"]
+
+a["AquaMatrix | FE R15 Animations 5"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 5"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 5"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 5"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 5"]["Text"] = "Counter:"
+a["AquaMatrix | FE R15 Animations 5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 5"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 5"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 5"]["Parent"] = a["ScrollingFrame 5"]
+
+a["UICorner 132"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 132"]["Name"] = "UICorner"
+a["UICorner 132"]["Parent"] = a["AquaMatrix | FE R15 Animations 5"]
+
+a["AquaMatrix | FE R15 Animations 6"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 6"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 6"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 6"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 6"]["Text"] = "AquaMatrix Has: 272 Animations"
+a["AquaMatrix | FE R15 Animations 6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 6"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 6"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 6"]["Parent"] = a["ScrollingFrame 5"]
+
+a["UICorner 133"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 133"]["Name"] = "UICorner"
+a["UICorner 133"]["Parent"] = a["AquaMatrix | FE R15 Animations 6"]
+
+a["Space 2"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["Space 2"]["Size"] = UDim2.new(0, 385, 0, 15)
+a["Space 2"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["Space 2"]["BackgroundTransparency"] = 1
+a["Space 2"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["Space 2"]["Text"] = ""
+a["Space 2"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["Space 2"]["TextSize"] = 14
+a["Space 2"]["TextTransparency"] = 1
+a["Space 2"]["Name"] = "Space"
+a["Space 2"]["Parent"] = a["ScrollingFrame 5"]
+
+a["UICorner 134"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 134"]["Name"] = "UICorner"
+a["UICorner 134"]["Parent"] = a["Space 2"]
+
+a["AquaMatrix | FE R15 Animations 7"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 7"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 7"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 7"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 7"]["Text"] = "Credits:"
+a["AquaMatrix | FE R15 Animations 7"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 7"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 7"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 7"]["Parent"] = a["ScrollingFrame 5"]
+
+a["UICorner 135"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 135"]["Name"] = "UICorner"
+a["UICorner 135"]["Parent"] = a["AquaMatrix | FE R15 Animations 7"]
+
+a["AquaMatrix | FE R15 Animations 8"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 8"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 8"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 8"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 8"]["Text"] = "Owner: @ocfi\nfuck exploitfin hes a skid lol"
+a["AquaMatrix | FE R15 Animations 8"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 8"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 8"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 8"]["Parent"] = a["ScrollingFrame 5"]
+
+a["UICorner 136"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 136"]["Name"] = "UICorner"
+a["UICorner 136"]["Parent"] = a["AquaMatrix | FE R15 Animations 8"]
+
+a["Space 3"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["Space 3"]["Size"] = UDim2.new(0, 385, 0, 15)
+a["Space 3"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["Space 3"]["BackgroundTransparency"] = 1
+a["Space 3"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["Space 3"]["Text"] = ""
+a["Space 3"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["Space 3"]["TextSize"] = 14
+a["Space 3"]["TextTransparency"] = 1
+a["Space 3"]["Name"] = "Space"
+a["Space 3"]["Parent"] = a["ScrollingFrame 5"]
+
+a["UICorner 137"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 137"]["Name"] = "UICorner"
+a["UICorner 137"]["Parent"] = a["Space 3"]
+
+a["AquaMatrix | FE R15 Animations 9"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 9"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 9"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 9"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 9"]["Text"] = "Will update this anually ! :)"
+a["AquaMatrix | FE R15 Animations 9"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 9"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 9"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 9"]["Parent"] = a["ScrollingFrame 5"]
+
+a["UICorner 138"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 138"]["Name"] = "UICorner"
+a["UICorner 138"]["Parent"] = a["AquaMatrix | FE R15 Animations 9"]
+
+a["AquaMatrix | FE R15 Animations 10"]["Position"] = UDim2.new(.15011820197105408, 0, .0002540761779528111, 0)
+a["AquaMatrix | FE R15 Animations 10"]["Size"] = UDim2.new(0, 385, 0, 39)
+a["AquaMatrix | FE R15 Animations 10"]["BackgroundColor3"] = Color3.fromRGB(28, 93, 152)
+a["AquaMatrix | FE R15 Animations 10"]["FontFace"] = Font.new("rbxasset://fonts/families/Roboto.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+a["AquaMatrix | FE R15 Animations 10"]["Text"] = "If you encounter any bugs, just report it in our discord server"
+a["AquaMatrix | FE R15 Animations 10"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+a["AquaMatrix | FE R15 Animations 10"]["TextSize"] = 14
+a["AquaMatrix | FE R15 Animations 10"]["Name"] = "AquaMatrix | FE R15 Animations"
+a["AquaMatrix | FE R15 Animations 10"]["Parent"] = a["ScrollingFrame 5"]
+
+a["UICorner 139"]["CornerRadius"] = UDim.new(0, 5)
+a["UICorner 139"]["Name"] = "UICorner"
+a["UICorner 139"]["Parent"] = a["AquaMatrix | FE R15 Animations 10"]
+
